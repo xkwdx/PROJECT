@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rezerwacja Weterynarza</title>
+    <link rel="stylesheet" href="css/rejestracja.css">
+</head>
+<body>
+    <header>
+        <h1>Klinika weterynaryjna "Arka Gdynia"</h1>
+        <nav>
+            <a href="glowna.html">Strona główna</a>
+            <a href="uslugi.html">Usługi</a>
+            <a href="rejestracja.html">Rejestracja</a>
+            <a href="rezerwacja.html">Rezerwacja</a>
+        </nav>
+    </header>
+
+    <section id="rejestracja">
+        <center><h2>Załóż konto</h2></center>
+        <form id="formularzrejestracji">
+            <label for="nazwaUzytkownika">Nazwa użytkownika:</label>
+            <input type="text" id="nazwaUzytkownika" name="nazwaUzytkownika" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="haslo">Hasło:</label>
+            <input type="password" id="haslo" name="haslo" required>
+            
+            <button type="submit">Zarejestruj</button>
+        </form>
+    </section>
+    <script src="js/rejestracja.js"></script>
+</body>
+
+</html>

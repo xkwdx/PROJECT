@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rezerwacja Weterynarza</title>
+    <link rel="stylesheet" href="css/rezerwacja.css">
+</head>
+<body>
+    <header>
+        <h1>Klinika weterynaryjna "Arka Gdynia"</h1>
+        <nav>
+            <a href="glowna.html">Strona główna</a>
+            <a href="uslugi.html">Usługi</a>
+            <a href="rejestracja.html">Rejestracja</a>
+            <a href="rezerwacja.html">Rezerwacja</a>
+        </nav>
+    </header>
+
+    <section id="rezerwacja">
+        <center><h2>Zarezerwuj wizytę</h2></center>
+        <form id="formularzrezerwacji">
+            <label for="weterynarz">Wybierz weterynarza:</label>
+            <select id="weterynarz" name="weterynarz">
+                <option value="Lek. wet. Mateusz Domagała">Lek. wet. Mateusz Domagała</option>
+                <option value="Lek. wet. Nazar Skryminskyi">Lek. wet. Nazar Skryminskyi</option>
+            </select>
+
+            <label for="data">Data:</label>
+            <input type="date" id="data" name="data" required>
+
+            <label for="godzina">Godzina:</label>
+            <input type="time" id="godzina" name="godzina" required>
+
+            <button type="submit">Rezerwuj</button>
+        </form>
+    </section>
+</body>
+<script src="js/rezerwacja.js"></script>
+</html>
